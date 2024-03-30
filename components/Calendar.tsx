@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { GiBigDiamondRing } from "react-icons/gi";
 
-interface CalendarProps {}
+interface CalendarProps { }
 
 const Calendar: React.FC<CalendarProps> = () => {
    const getDuration = (idx: number) => {
@@ -34,7 +34,7 @@ const Calendar: React.FC<CalendarProps> = () => {
                      duration: 1,
                   }}
                >
-                  Ноябрь
+                  Апрель
                </motion.h2>
             </div>
             <div className="px-10 mt-5">
