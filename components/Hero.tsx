@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = () => {
                <img
                   // priority
                   className="min-h-[300px] w-full object-cover"
-                  src={"https://optim.tildacdn.com/tild6232-6131-4839-a561-663932333939/-/cover/400x600/center/center/-/format/webp/side-view-romantic-c.jpg"}
+                  src={"https://images.unsplash.com/photo-1527628173875-3c7bfd28ad78?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bG92ZXxlbnwwfHwwfHx8MA%3D%3D"}
                   // width={1000}
                   // height={1000}
                   alt="photo"

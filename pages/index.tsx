@@ -212,93 +212,6 @@ export default function Home() {
 
                   <section>
                      <div className="custom-container px-5">
-                        <div className="mt-10">
-                           <motion.h2
-                              className="text-7xl font-[champignon] font-normal leading-[0.8] text-center mt-14"
-                              initial={{ scale: 0.9, opacity: 0 }}
-                              whileInView={{ scale: 1, opacity: 1 }}
-                              transition={{
-                                 delay: 0,
-                                 ease: "easeOut",
-                                 duration: 1,
-                              }}
-                           >
-                              Дресс
-                              <span className="font-[Jony] relative top-3">
-                                 -
-                              </span>
-                              код
-                           </motion.h2>
-                        </div>
-                        <div className="">
-                           <div className="w-full mt-5">
-                              <motion.p
-                                 initial={{ scale: 0.8, opacity: 0 }}
-                                 whileInView={{ scale: 1, opacity: 1 }}
-                                 transition={{
-                                    delay: 0,
-                                    ease: "easeOut",
-                                    duration: 1,
-                                 }}
-                                 className="text-[20px] leading-[31px] text-center"
-                              >
-                                 Будем очень благодарны, если Вы подберете
-                                 наряды в цветах нашей свадьбы
-                              </motion.p>
-                           </div>
-                        </div>
-                        <div className="flex justify-center gap-4 py-2 px-4 my-10 border border-black rounded-full">
-                           <motion.div
-                              initial={{ opacity: 0 }}
-                              whileInView={{ opacity: 1 }}
-                              transition={{
-                                 delay: 0,
-                                 ease: "easeOut",
-                                 duration: 1,
-                              }}
-                              className="w-12 h-12 rounded-full bg-gradient-to-br from-[#434343] to-[#000000] from-[20%]"
-                           ></motion.div>
-                           <motion.div
-                              initial={{ opacity: 0 }}
-                              whileInView={{ opacity: 1 }}
-                              transition={{
-                                 delay: 0.1,
-                                 ease: "easeOut",
-                                 duration: 1,
-                              }}
-                              className="w-12 h-12 rounded-full bg-gradient-to-br to-[#3498db] from-[#2c3e50]"
-                           ></motion.div>
-                           <motion.div
-                              initial={{ opacity: 0 }}
-                              whileInView={{ opacity: 1 }}
-                              transition={{
-                                 delay: 0.2,
-                                 ease: "easeOut",
-                                 duration: 1,
-                              }}
-                              className="w-12 h-12 rounded-full bg-gradient-to-br to-[#237A57] from-[#093028]"
-                           ></motion.div>
-                           <motion.div
-                              initial={{ opacity: 0 }}
-                              whileInView={{ opacity: 1 }}
-                              transition={{
-                                 delay: 0.3,
-                                 ease: "easeOut",
-                                 duration: 1,
-                              }}
-                              className="w-12 h-12 rounded-full bg-gradient-to-br to-[#ffdde1] from-[#ee9ca7]"
-                           ></motion.div>
-                           <motion.div
-                              initial={{ opacity: 0 }}
-                              whileInView={{ opacity: 1 }}
-                              transition={{
-                                 delay: 0.4,
-                                 ease: "easeOut",
-                                 duration: 1,
-                              }}
-                              className="w-12 h-12 rounded-full bg-gradient-to-br to-[#E9E4F0] from-[#D3CCE3]"
-                           ></motion.div>
-                        </div>
                         <div className="">
                            <motion.h2
                               className="text-7xl font-[champignon] font-normal leading-[0.8] text-center mt-14"
@@ -312,22 +225,6 @@ export default function Home() {
                            >
                               Подсказки
                            </motion.h2>
-                        </div>
-                        <div className="mt-5">
-                           <motion.p
-                              initial={{ scale: 0.8, opacity: 0 }}
-                              whileInView={{ scale: 1, opacity: 1 }}
-                              transition={{
-                                 delay: 0,
-                                 ease: "easeOut",
-                                 duration: 1,
-                              }}
-                              className="text-[20px] leading-[31px] text-center"
-                           >
-                              Наш праздник для взрослых, так как мы не
-                              предполагаем развлечений и посадочных мест для
-                              детей.
-                           </motion.p>
                         </div>
                         <div className="flex justify-center mt-5">
                            <AiOutlineHeart size={40} color={"gray"} />
