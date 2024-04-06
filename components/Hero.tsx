@@ -32,12 +32,12 @@ const Hero: React.FC<HeroProps> = () => {
                transition={{ delay: 0, ease: "easeOut", duration: 1.5 }}
                className="max-w-[250px] w-full min-h-[300px]"
             >
-               <img
-                  // priority
+               <Image
+                  priority
                   className="min-h-[300px] w-full object-cover"
                   src={"/images/photo-1.webp"}
-                  // width={1000}
-                  // height={1000}
+                  width={1000}
+                  height={1000}
                   alt="photo"
                />
             </motion.div>

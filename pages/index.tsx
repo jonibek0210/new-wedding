@@ -125,7 +125,10 @@ export default function Home() {
                            }}
                            className="relative flex justify-center"
                         >
-                           <img
+                           <Image
+                              width={1000}
+                              height={1000}
+                              priority
                               className="max-w-[247px] min-h-[300px] w-full object-cover"
                               src={"/images/photo-2.webp"}
                               alt="photo"
