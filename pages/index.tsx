@@ -127,7 +127,7 @@ export default function Home() {
                         >
                            <img
                               className="max-w-[247px] min-h-[300px] w-full object-cover"
-                              src={"https://static.tildacdn.com/tild3736-3964-4436-b862-653638656136/high-angle-couple-si.jpg"}
+                              src={"/images/photo-2.webp"}
                               alt="photo"
                            />
                         </motion.div>
